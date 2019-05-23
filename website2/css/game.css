@@ -1,0 +1,546 @@
+.navbar
+{
+	background: #333;
+	height: 100px;
+	font-size: 14px
+}
+.navbar-brand
+{
+	float: left;
+    height: 50px;
+    padding: 28px 24px;
+    font-size: 22px;
+    line-height: 23px;
+}
+.navbar .logo #mtj
+{
+	color: red;
+	border: 2px solid red;
+	border-radius: 50%;
+	padding: 10px;
+	width: 100px;
+	margin-right: -13px;
+	padding-top: 15px;
+	
+}
+.navbar .logo #packers{
+	color: #FFF;
+	font-size: .7em;
+	letter-spacing: 3px;
+	font-weight: 500;
+	
+}
+/**/
+.nav
+{
+	padding-left: 115px
+}
+/**/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #e4dddd;
+    background-color: #bf0a0a
+}
+/**/
+/**/
+.hvr-sweep-to-bottom:before
+{
+	background: #622323;
+}
+.navbar-inverse .navbar-nav > li > a
+{
+	color: #eeeeee;
+	
+}
+.navbar-inverse .navbar-nav > li > a:hover
+{
+	color: #eee
+}
+
+.navbar-nav > li > a{
+	padding-top: 58px;
+    padding-bottom: 20px;
+	font-size: 16px
+}
+.banner
+{
+	background: url(../img/bg.jpg) no-repeat center bottom;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	margin-top: -20px
+}
+.overlay
+{
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	height: 100%
+}
+.overlay .container 
+{
+	padding-top: 180px;
+	color: #FFF;
+	font-size: 25px;
+	font-weight: 800;
+	letter-spacing: 3px;
+	
+}
+.client
+{
+	color: #FFF;
+	font-size: 20px
+}
+.banner .container h1
+{
+	border: 2px solid #FFF;
+	
+}
+
+.client h6
+{
+	border-bottom: 2px solid #FFF;
+	width: 10%;
+	margin-left: 45%
+	
+}
+.banner .container .fa-chevron-right,
+.banner .fa-chevron-left
+{
+	position: absolute;
+	top: 66%;
+	cursor: pointer
+}
+.banner .container .fa-chevron-right:hover,
+.banner .fa-chevron-left:hover
+{
+	color: #f7600e
+}
+.banner .container .fa-chevron-right {
+	
+	right: 10%;
+	
+}
+.banner .container .fa-chevron-left{
+	
+	left: 10%
+}
+.welcome
+{
+	height: 500px;
+	
+}
+.welcome h2
+{
+	color: red
+}
+.welcome-img .row img
+{
+	width: 100%;
+	border:7px solid #DDD;
+	margin-right:2%;
+	
+}
+.par-welcome
+{
+	font-size: 18px;
+	column-rule: #333;
+	
+}
+.about
+{
+	height: 500px
+}
+.about-tp .rebort
+{
+}
+.about-tp .rebort iframe
+{
+	width: 550px;
+	height: 300px
+}
+.progress-animated
+{
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	background: #FFF;
+	margin: 20px;
+	border: 2px solid #EEE;
+	overflow: hidden;
+	
+}
+
+.progress-animated span
+{
+	height: 100%;
+/*	background: #3498db;*/
+/*	display: block;*/
+    color: #FFF;
+    line-height: 30px;
+	text-indent: 50px
+
+}
+.progress-red span
+{
+	 background: #c0392b;
+		width: 0
+}
+.progress-blue span
+{
+	background: #3498db;
+	width: 0
+}
+.progress-green span
+{
+	background: #16a085;
+	width: 0
+
+}
+.progress-purople span
+{
+	background: #8e44ad;
+		width: 0
+
+}
+.about h3
+{
+	text-transform: capitalize;
+	color: firebrick;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-bottom: 10px;
+}
+.our-services
+{
+}
+.our-services i
+{
+	background: #f7600e;
+	color: #FFF;
+	border: 1px solid #DDD;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	text-align: center;
+	
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out	
+}
+.our-services i:hover
+{
+	background: #fFF;
+	color: #f7600e;
+	border: none;
+	
+
+	
+}
+.our-services  .container .ser-car{
+	background: url(../img/img2.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+.our-services .overlay{
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	height: 100%
+}
+/*
+.ser-car .overlay .list
+{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	margin-left: 35%
+}
+.ser-car .overlay .list li
+{
+	margin-right: 40px;
+	width: 30px;
+	height: 10px;
+	border: 1px solid red;
+	border-radius: 10px;
+	
+}
+*/
+
+.ser-car .overlay .item h2
+{
+	color: #FFF;
+	font-size: 20px;
+	margin-bottom: 40px;
+	position: absolute;
+	top: 50px;
+	text-align: center;
+	margin-left: 50px
+}
+.ser-car .overlay .item p
+{
+	color: #FFF;
+	text-transform: capitalize;
+	line-height: 30px;
+	position: absolute;
+	top: 150px;
+	
+}
+.ser-car .overlay .fa-chevron-right
+{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 75px;
+	right: 50px
+}
+.ser-car .overlay .fa-chevron-left
+{
+	position: absolute;
+	bottom: 0;
+	left: 80px
+}
+.our-gallery{
+	background: #d8eef0;
+	margin-top: 50px;
+	position: relative
+}
+.our-gallery h2
+{
+	color: red;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: 20px
+}
+.our-gallery .item{
+	position: relative;
+	float: left;
+	width: 25%;
+	overflow: hidden;
+	border: 1px solid #DDD;
+	border-radius: 10px;
+
+	
+}
+.our-gallery .item .over{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(247,96,14,.8);
+	border: 1px solid #DDD;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;	
+	transition: all 1s ease-in-out;
+
+
+}
+.our-gallery .item .over h1,p{
+	text-align: center;
+	color: #FFF
+}
+.our-gallery .item  img{
+	width: 400px;
+	height: 300px
+}
+.our-gallery .item .over{
+	display: none
+}
+.our-gallery .item:hover .over{
+	display: block
+}
+
+.last-news img{
+	height: 500px;
+	margin-top: 5px;
+	border-radius: 20px
+}
+.last-news{
+	background: #FFF;
+}
+.last-news p
+{
+	color: #333;
+	text-transform: capitalize;
+	
+}
+.date h4
+{
+	color: #f44336;
+	width: 75px;
+	height: 70px;
+	line-height: 30px;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    border: 1px solid #f44336;
+	border-radius: 50%
+}
+.subscribe
+{
+	background: url(../img/bg1.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: 60%;
+	position: relative
+	
+}
+.subscribe .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5)
+	
+}
+.subscribe .overlay h3{
+	color: red;
+	
+}
+.subscribe .overlay form input[type="email"]{
+	margin-left: 250px;
+	width: 30%;
+	padding: 5px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #DDD;
+	float: left
+	
+}
+.subscribe .overlay form button{
+	background: red;
+	margin-right: 350px;
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid red;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 2px;
+	float: right
+	
+}
+.subscribe .spam{
+	position: absolute;
+	bottom: 90px;
+	text-align: center;
+	margin-left: 380px;
+	text-transform: capitalize
+}
+.contact-left input[type="text"], 
+.contact-left input[type="email"],
+.contact-left input[type="tel"]{
+	border: 1px solid #ccc;
+    font-size: 1em;
+    color: #828282;
+    background: none;
+    width: 100%;
+    padding: .8em 1em;
+    outline: none;
+	margin: 10px
+	
+}
+.contact-right input[type="submit"]{
+	background: #f44336;
+	color: #FFF;
+	border: 1px solid #f44336;
+	width: 100%;
+	height: 50px;
+	transition: all 1s ease;
+	margin-left: 10px
+}
+.contact-right input[type="submit"]:hover
+{
+	color: #f44336;
+	background: #FFF
+}
+
+.contact-right textarea{
+	width: 100%;
+	background: none;
+	border: 1px solid #DDD;
+	color: #828282;
+	font-size: 1.1em;
+	transition: all 1s ease-in-out;
+	
+	margin: 10px;
+	padding: 10px;
+	height: 80px;
+	resize: none
+}
+.links{
+	height: 300px;
+	position: relative
+}
+.links ul {
+	margin-left: 250px;
+}
+.links ul li{
+	float: left;
+	margin-left: 50px;
+	font-size: 20px;
+	margin-top: 50px;
+	color: #333;
+	cursor: pointer
+
+}
+.links .social h4 i{
+	margin-top: 120px;
+	position: absolute;
+	left: 40%;
+	font-size: 50px
+}
+.links .social h4 span{
+	position: absolute;
+	left: 45%;
+	margin-top: 130px
+}
+.links .social-icons{
+	position: absolute;
+	bottom: 30px;
+	left: 600px
+}
+.links .social-icons i{
+	margin-right: 20px;
+	border: 1px solid red;
+	padding: 10px;
+	color: red;
+	cursor: pointer
+}
+.footer{
+}
+.footer{
+	background: url(../img/bg1.jpg) no-repeat center center;
+	background-size: cover;
+	height: 80px;
+	position: relative
+
+}
+.footer .overlay p{
+	color: #FFF;
+	position: absolute;
+	bottom: 20px;
+	left: 550px
+	
+}
+.footer .overlay .move-up{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 99999;
+	position: fixed;
+	cursor: pointer
+}
+.footer .overlay p span:hover{
+	color: red
+}

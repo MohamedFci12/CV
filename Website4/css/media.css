@@ -1,0 +1,11 @@
+@media (max-width:767px)
+{
+	.btn-lg, .btn-group-lg > .btn
+{
+
+	margin-top: 20px;
+	width: 100%
+}
+	
+	
+}

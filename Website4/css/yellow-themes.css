@@ -1,0 +1,30 @@
+.navbar-inverse,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
+.navbar-nav .open .dropdown-menu
+
+{
+		background: #FFF400
+
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,.carousel-indicators .active
+
+{
+	background: #FFF400;
+
+}
+.about h1 span,.testimonilaes .carousel-inner .item  span
+
+{
+		color: #FFF400
+
+}
+.footer h4,.footer .copyright span
+
+{
+		color: #FFF400;
+
+}
+

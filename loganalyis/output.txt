@@ -1,0 +1,15 @@
+connect to database…
+
+query one the most popular three articles: 
+('Candidate is jerk, alleges rival', 338647)
+('Bears love berries, alleges bear', 253801)
+('Bad things gone, say good people', 170098)
+
+query tow the most popular four article authors: 
+('Ursula La Multa', 507594)
+('Rudolf von Treppenwitz', 423457)
+('Anonymous Contributor', 170098)
+('Markoff Chaney', 84557)
+
+query three the days which have more than 1% percentage errors: 
+[('2016-07-17', 2.2785265049416)]

@@ -1,0 +1,132 @@
+/* Title section */
+#title {
+  background-color: #ff4c68;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand{
+  font-size: 3.25rem
+}
+.head-nav{
+  color: white;
+
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: "Montserrat-Bold"
+}
+/* Refactoring  */
+.big-heading,
+.cta-heading,
+.section-heading {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Button Styling  */
+.btn-outline-light{
+  border-color: #000;
+}
+.btn-outline-dark{
+  border-color: #fff;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.features-box {
+  padding: 4.5%;
+}
+.icons {
+  color: #ef8172;
+  margin-bottom: 1rem
+}
+.icons:hover {
+  color: #ff4c68;
+}
+/* testimonial sections */
+#testimonials {
+
+  background-color: #ff4c68;
+  color: #fff;
+  font-family:  "Montserrat-Bold"
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 50%;
+  margin:20px;
+}
+
+#press {
+    background-color: #ff4c68;;
+}
+.press-logo {
+  width: 15%;
+  margin:20px 20px 50px;
+}
+/* CTA and Pricing Refactoring */
+#cta,
+#pricing, #press, #testimonials,
+.features-box{
+  text-align: center;
+ }
+
+#cta,
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 15px;
+}
+.pricing-column{
+  padding: 3% 2%
+}
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding: 7% 15%
+}
+.social-icons {
+  margin: 20px 10px;
+}
+/* Responsive Design */
+
+@media (max-width: 982px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+}
+}

@@ -1,0 +1,105 @@
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.wrapper{
+	display: flex;
+    width: 100%;
+	text-align: stretch
+}
+.wrapper .content .chart-hr{
+	width: 80%;
+	border: 1px solid #ccc;
+	margin-top: 50px;
+
+
+}
+.wrapper .content  .container-fluid #customer{
+	text-align: center;
+
+}
+
+
+
+.wrapper #sidbar {
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 100vh;
+	position: relative;
+
+}
+.wrapper #sidbar  .sidebar-header{
+	position: absolute;
+
+}
+.wrapper #sidbar  .sidebar-header #logo{
+	height: 3.5rem;
+	width: 100%
+
+}
+
+
+.wrapper #sidbar{
+	background-color: #DDD
+}
+.wrapper #content{
+	height: 500vh;	
+	width: 50%
+}
+.wrapper #content {
+	margin: 50px auto
+}
+.wrapper #content #customer{
+
+}
+.wrapper ul.components{
+	margin-top: 100px;
+
+
+}
+.wrapper ul.components a{
+	text-decoration: none;
+	color: white
+}
+.wrapper ul.components  a li.one {
+	border: 1px solid #DDD;
+	padding: 10px;
+	text-align: center;
+	background-color: #fcfafa;
+	color: #160f30
+}
+.wrapper ul.components  a li.two {
+
+	border: 1px solid #DDD;
+	background-color: #420000;
+	padding: 20px;
+    text-align: center;
+    width: 100%;
+
+
+}
+@media only screen and (max-width: 600px) {
+
+	.wrapper #content{
+	
+		margin-left: -8.4rem;
+
+		
+	}
+	.wrapper #content #customer{
+		color: #DDD;
+		text-align: center;
+		margin-left: 9rem
+	}
+	.wrapper #content #widdely{
+
+		color: #DDD;
+		text-align: center;
+		margin-left: 9rem
+	}
+	.wrapper #sidbar{
+		width: 100px;
+		height: 100px
+	}
+}

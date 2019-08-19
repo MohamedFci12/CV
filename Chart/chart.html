@@ -23,26 +23,53 @@
 			<!-- sidebar -->
 			<nav id="sidbar">
 					<div class="sidebar-header">
-							<img src="img/logo.jpeg" class="img-fluid rounded  d-block"  id="logo">
+							<img src="img/logo.jpeg" class="img-responsive center-block"  id="logo">
 					</div>
 					<ul class="list-unstyled components">
-						<a href="#" ><li class="two">Dashboard</li></a>
-						<a href="#" ><li class="one">My Profile</li>	</a>
-						<a href="" ><li class="one">Stastistics</li></a>
-				         <a href="#" c><li class="one">Orders</li></a>
-				         <a href="#"> <li class="one">Products</li></a>
+						<a href="#">
+			<li class="two">Dashboard</li>
+					   </a>
+
+						<a href="#">
+					<li class="one">
+						 My Profile</li>	
+					</a>
+						<a href="#">
+							<li class="one">Stastistics</li>
+						</a>
+				         <a href="#">
+				         <li class="one">
+				         Orders</li>
+				         </a>
+				         <a href="#"> 
+				         	<li class="one">Products</li>
+				         </a>
 					</ul>
 
+
 			</nav>
+
 			<!-- content -->
 			<div id="content">
 
 <!-- toggle button -->
 
-					  <button type="button" id="sidebarCollapse" class="btn btn-success">
-				            <i class="fas fa-align-left"></i>
-				            <span style="text-align: center;">Toggle Sidebar</span>
-				        </button>
+								<div class="sales">
+								<a href="#">Total sales & Orders EGP</a>
+							    </div>
+					
+								<div class="refund">
+										<a href="#">Total Refund EGP</a>
+							     </div>
+								
+								<div class="profit">
+										<a href="#">Total Profit EGP</a>
+							
+							   </div>
+							  <button type="button" id="sidebarCollapse" class="btn btn-success">
+						            <i class="fas fa-align-left"></i>
+						            <span>Toggle Sidebar</span>
+						        </button>
 
 							 <!-- Chart hr -->
 							<hr class="chart-hr"></hr>
@@ -119,6 +146,8 @@
 	  <script src="js/bootstrap.min.js"></script>
 	  <script src="js/Chart.min.js"></script>
 	  <script src="js/js-chart.js"></script>
+	    <script type="text/javascript" src="js/wow.min.js"></script>
+		<script>new WOW().init();</script>
 
 </body>
 </html>

@@ -1,0 +1,195 @@
+* , *:after, *:before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+	height: 800px;
+
+    font-family:cursive;
+    height:auto;
+	overflow: hidden
+}
+
+
+.nav-1{
+	height: 70px;
+ border-bottom: 1px solid gray;
+}
+
+.logo{
+	padding-left: 100px;
+}
+
+.logo-pic{
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	margin-left:50px;
+	margin-top: -10px
+}
+.logo i{
+   line-height: 60px
+}
+
+
+.search .search-plac {
+    width: 300px;
+}
+
+
+/* End navbar */
+/* media query for navbar */ 
+@media (max-width: 767.98px) {  
+	.logo{
+	width: 250px;
+         }
+	.logo i{
+      margin-left: -10px;
+	}
+	
+	
+	.logo-pic{
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	margin-left:20px;
+	margin-top: -10px
+      }
+	.search{
+		margin-top: -80px;
+		margin-left: 180px
+    }
+    .search .search-plac {
+    width: 260px;
+   }
+
+.sell{
+  margin-top: 10px;    
+    
+}  
+    @media (min-width: 832px) and (max-width:1100px) {    
+
+	.search{
+		margin-left: 50px;
+		
+    }
+    .search .search-plac {
+    width: 100px;
+    }
+    
+}
+ 
+}
+    /*end media query for navbar */
+.our-button{
+			width: 30px;
+			height: 40px;
+			display: inline-block;
+			cursor: pointer;
+
+
+}
+.our-button .the-bar {
+			width: 100%;
+			height: 4px;
+			background-color: #888;
+			display: block;
+			margin: 0 0 5px;
+}
+.transformed .the-bar:first-child {
+  transform:rotate(-45deg) translate(-17px, 6px);
+}
+
+.transformed .the-bar:nth-child(2) {
+    opacity: 0;
+}
+.transformed .the-bar:last-child {
+  transform:rotate(45deg) translate(-8px, 8px);
+
+}
+
+/* Form input hide palceholder */
+.logo-container{
+	position: relative
+}
+.logo-container .logo{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -10px
+
+}
+
+.form-inline .form-control:focus
+{
+	outline: none
+}
+
+/*search icons */
+.search-icons{
+	width: 80px;
+	height: 40px;
+	outline: none;
+	border: transparent;
+	position: relative;
+	right: 8px;
+	top: 1px
+
+}
+
+.search-header{
+	width: 300px;
+
+}
+.cart-img{
+	width: 50px;
+	height: 50px
+}
+form input:focus{
+	outline: none
+}
+
+form{
+	width: 400px;
+	margin: auto
+}
+form > div{
+	position: relative;
+}
+form input{
+	width: 100%;
+	padding: 10px 0;
+	border: none;
+	border-bottom: 1px solid #CCC;
+}
+form .border{
+	background-color: red;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 5px
+
+
+}
+form input:focus  + .border{
+	width: 100%;
+	transition: .4s
+}
+.from-right + button{
+	text-align: center;
+	padding: 5px;
+	margin-left: 100px;
+	margin-top: 20px
+}
+
+.from-left  ~ button{
+    text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+	margin-left: 100px
+}

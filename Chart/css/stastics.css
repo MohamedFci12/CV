@@ -1,47 +1,24 @@
 body{
+	height: 1500px;
 	font-family: 'Roboto', sans-serif;
 
 }
-
 .wrapper{
 	display: flex;
     width: 100%;
-	text-align: stretch
-}
-.wrapper .content .chart-hr{
-	width: 80%;
-	border: 1px solid #ccc;
-	margin-top: 50px;
-
+	text-align: stretch;
 
 }
+
 .wrapper .content  .container-fluid #customer{
 	text-align: center;
-
 }
 .wrapper #sidbar {
 	min-width: 200px;
 	max-width: 200px;
 	min-height: 100vh;
 	position: relative;
-
-}
-.wrapper #sidbar  .sidebar-header{
-	position: absolute;
-
-}
-.wrapper #sidbar  .sidebar-header #logo{
-	height: 3.5rem;
-	width: 100%
-
-}
-
-.wrapper #sidbar {
-	min-width: 200px;
-	max-width: 200px;
-	min-height: 100vh;
-	position: relative;
-	background-color: #45454d;
+		background-color: #45454d;
 
 
 }
@@ -80,63 +57,60 @@ body{
 	text-align: center;
 	color: white
 }
+/*any link in cont
+ent box */
+/*box content */
 .wrapper #content{
-	height: 500vh;	
-	width: 50%
-}
-.wrapper #content {
-	margin: 50px auto;
-	clear: both;
-}
-.wrapper #content .sales,.refund,.profit { 
-text-align: left;
-float: left;
-margin-right: 20px;
-border: 1px solid white;
-padding: 10px;
-background-color: #464159;
-color: #464159	
- }
+	width: 100%;
+	position: relative;
 
+
+}
+.wrapper #content #orders,#reports,#seller,#profits{
+	margin-bottom: 20px;
+}
+
+.wrapper #content  h2{
+	text-transform: capitalize;
+	color: #45454d;
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: .5em
+	margin-top: .5em;
+
+}
  .wrapper #content a {
  	text-decoration: none;
  	color: white
  }
- .wrapper #content #sidebarCollapse{
- 	margin-top: 80px	
+ /*Toggle sidebar */
+ .wrapper #content #sidebarCollapse
+ {
+ 	margin-top: 80px;
+ 	position: absolute;
+	bottom:  -20px;
+	right: 0
  }
 
-@media only screen and (max-width: 600px) {
+
+/*media query only screen and width 600px */
+@media only screen and (max-width: 600px){
 
 	.wrapper #content{
+		margin-left: 2.4rem;
+1		text-align: center;
+	}
+	.wrapper #content h2{
+		color: #464159;
+		font-size: 1rem;
+	}
 	
-		margin-left: -5.4rem;
-		text-align: center;
-		
-	}
-	.wrapper #content .sales,.refund,.profit{
-	width: 50%;
-	margin-left: 150px;
-	border-radius: 5px;
-	text-align:center;	
-	padding: 0;
-	margin-bottom: 5px	
-	}
 	.wrapper #content #sidebarCollapse{
-			margin-left: 150px;
 			padding: 0;
-			position: relative;
-			bottom: 50px
-
+			margin-right: 150px;
+			text-align: center;
 
 	}
-	.wrapper #content #customer, #widdely{
-		color: #DDD;
-		font-size: 20px;
-		margin-left: 8rem;
-		font-weight: bold;
-	}
-	
 	.wrapper  #sidbar{
 		background-color: #464159;
 			}
@@ -155,6 +129,10 @@ color: #464159
 		font-weight: bold;
 		border:none;
 		color: white
+	}
+	.wrapper  #sidbar .components{
+		
+	
 	}
 }
 @keyframes logo {
